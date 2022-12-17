@@ -1,0 +1,188 @@
+*{
+   font-family: Poppins, sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   text-decoration: none;
+
+}
+
+.navbar{
+   width: 1120px; 
+   height: 80px;
+   margin-left: auto;
+   margin-right: auto;
+   }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.row-centerd{
+    align-items:center;
+    
+}
+
+.content-container{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+} 
+
+#app-logo{
+    height: 40px;
+    margin-right: 16px;
+}
+
+#app-title{
+    
+    font-weight: bold;
+    font-size: 1.88em;
+    line-height: 28px;
+    color: #173A56;
+}
+
+.navbar-wraper{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.nav-menu > a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 28px;
+    color: #22343D;
+    margin: 0 10px;
+  
+    
+    
+}
+
+.primary-button{
+  background: #02897A;
+  border-radius: 4px;
+  height: 43px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  padding: 0 25px;
+  white-space: pre;
+  }
+
+.button-outlined{
+  background-color: #FFFFFF;
+  color: #173A56;
+  border: 1px solid #BCD0E5;
+}
+
+.button-link{
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #02897A;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  white-space: pre;  
+}
+
+#play-icon{
+    height: 17px;
+    margin-right: 1px;
+    align-items: center;
+}
+
+.buttons-nav{
+    margin: 0 12px;
+    gap: 24px;
+}
+
+.switch-theme-button{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header{
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 60px;
+    color: #22343D;
+
+}
+
+.content-left-col, .content-right-col{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.subtitle{
+    font-weight: normal;
+    font-size: 1.13em;
+    line-height: 28px;
+    color: #22343D;
+}
+
+.first-section-right-col {
+    background-image: url("./images/amico.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 555px;
+}
+
+#menu-icon{
+    width: 28px;
+    height: 31px;
+    margin-left: auto;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-icon{
+        display: flex;
+    }
+.navbar-wraper{
+    position: relative;
+}
+
+.navbar-wraper > .nav-bar-buttons-container{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+}
+
+}
+
+
+   
+
+
+    
+   
